@@ -1,0 +1,20 @@
+[
+  {
+    "id": "deadbeef",
+    "name": "aName",
+    "query": {
+      "eq": {
+        "key": "value"
+      }
+    }
+  },
+  {
+    "id": "badc0ffee",
+    "name": "aName",
+    "query": {
+      "eq": {
+        "key": "value"
+      }
+    }
+  }
+]

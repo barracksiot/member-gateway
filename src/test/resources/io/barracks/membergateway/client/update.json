@@ -1,0 +1,21 @@
+{
+  "uuid": "98c91460-3133-4217-80e9-dd00ef3c7e7b",
+  "userId": "123456789abcdef",
+  "name": "myBeautifulUpdate",
+  "description": "myBeautifulUpdate Description",
+  "packageId": "abcdef123456789",
+  "revisionId": 42,
+  "creationDate": "2016-08-18T15:43:07.890-05",
+  "status": "published",
+  "additionalProperties": {
+    "aProperty": "aPropertyValue"
+  },
+  "_links": {
+    "self": {
+      "href": "http://172.18.0.2:8080/updates/5712e5f4e4b0d5aba5094b84"
+    },
+    "updateInfo": {
+      "href": "http://172.18.0.2:8080/updates/5712e5f4e4b0d5aba5094b84"
+    }
+  }
+}

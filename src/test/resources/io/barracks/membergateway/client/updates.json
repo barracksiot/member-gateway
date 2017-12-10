@@ -1,0 +1,37 @@
+{
+  "_embedded" : {
+    "updateInfos" : [ {
+      "uuid" : "9d219f38-d722-4657-8789-04aab44bc5a4",
+      "userId" : "578fef72e4b0cbb9bbeeb889",
+      "name" : "v1.1",
+      "packageId" : "58935878e4b0922a496af97c",
+      "segmentId" : "589357d4e4b0e9014aac3c11",
+      "additionalProperties" : { },
+      "status" : "published",
+      "revisionId" : 2,
+      "creationDate" : "2017-02-02T16:04:17.555Z"
+    }, {
+      "uuid" : "936011a3-b3b8-4b08-8bc4-b64fff1bcd7f",
+      "userId" : "578fef72e4b0cbb9bbeeb889",
+      "name" : "Beta 1",
+      "description" : "dfsdfgmn,ds,mnf",
+      "packageId" : "57acf5fee4b05f8c64fd3028",
+      "segmentId" : "588bb6fd92eb215bb6f62fc3",
+      "additionalProperties" : { },
+      "status" : "published",
+      "revisionId" : 2,
+      "creationDate" : "2016-08-11T22:36:16.972Z"
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/updates?userId=578fef72e4b0cbb9bbeeb889&page=0&size=10"
+    }
+  },
+  "page" : {
+    "size" : 10,
+    "totalElements" : 2,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

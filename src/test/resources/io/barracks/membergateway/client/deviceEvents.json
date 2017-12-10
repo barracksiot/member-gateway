@@ -1,0 +1,54 @@
+{
+  "_embedded": {
+    "deviceEvents": [
+      {
+        "unitId": "UnitId1",
+        "versionId": "VersionId",
+        "receptionDate": "2016-04-25T21:08:00.901Z",
+        "deviceIP": "1234.56.78.9",
+        "additionalProperties" : {
+          "lang" : "fr-CA"
+        },
+        "_links": {
+          "self": {
+            "href": "https://not.barracks.io/devices/571e8730e4b0836d7d348e4e"
+          },
+          "deviceEvent": {
+            "href": "https://not.barracks.io/devices/571e8730e4b0836d7d348e4e"
+          }
+        }
+      },
+      {
+        "unitId": "UnitId2",
+        "versionId": "VersionId",
+        "receptionDate": "2016-04-25T21:24:30.500Z",
+        "deviceIP": "5678.91.23.4",
+        "additionalProperties" : {
+          "lang" : "fr-CA"
+        },
+        "_links": {
+          "self": {
+            "href": "https://not.barracks.io/devices/571e8b0ee4b0836d597255fa"
+          },
+          "deviceEvent": {
+            "href": "https://not.barracks.io/devices/571e8b0ee4b0836d597255fa"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://not.barracks.io/devices"
+    },
+    "profile": {
+      "href": "https://not.barracks.io/profile/devices"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 2,
+    "totalPages": 1,
+    "number": 0
+  }
+}

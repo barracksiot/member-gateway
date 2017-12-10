@@ -1,0 +1,9 @@
+{
+  "id": "deadbeef",
+  "name": "aName",
+  "query": {
+    "eq": {
+      "key": "value"
+    }
+  }
+}

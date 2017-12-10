@@ -1,0 +1,18 @@
+{
+  "_embedded": {
+    "devices": [
+      {
+        "unitId": "deadbeef",
+        "lastEvent": {
+          "unitId": "deadbeef",
+          "segmentId": "anotherSegment",
+          "versionId": "aVersion",
+          "additionalProperties": {
+          }
+        },
+        "configuration": {
+        }
+      }
+    ]
+  }
+}

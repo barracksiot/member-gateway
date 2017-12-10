@@ -1,0 +1,8 @@
+{
+  "name": "draft",
+  "compatibleStatus": [
+    "draft",
+    "published",
+    "scheduled"
+  ]
+}

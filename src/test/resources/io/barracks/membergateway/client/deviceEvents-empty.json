@@ -1,0 +1,19 @@
+{
+  "_embedded": {
+    "deviceEvents": []
+  },
+  "_links": {
+    "self": {
+      "href": "http://172.20.0.4:8080/devices"
+    },
+    "profile": {
+      "href": "http://172.20.0.4:8080/profile/devices"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 5,
+    "totalPages": 1,
+    "number": 0
+  }
+}

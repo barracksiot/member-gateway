@@ -1,0 +1,31 @@
+[
+  {
+    "name": "draft",
+    "compatibleStatus": [
+      "draft",
+      "published",
+      "scheduled"
+    ]
+  },
+  {
+    "name": "published",
+    "compatibleStatus": [
+      "archived"
+    ]
+  },
+  {
+    "name": "archived",
+    "compatibleStatus": [
+      "published"
+    ]
+  },
+  {
+    "name": "scheduled",
+    "compatibleStatus": [
+      "scheduled",
+      "draft",
+      "published",
+      "archived"
+    ]
+  }
+]
