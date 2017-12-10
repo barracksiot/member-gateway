@@ -1,0 +1,12 @@
+{
+  "id": "anId",
+  "userId": "aUserId",
+  "name": "A valid filter name",
+  "updated": "",
+  "created": "",
+  "query": {
+    "eq": {
+      "key": "value"
+    }
+  }
+}

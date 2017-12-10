@@ -1,0 +1,54 @@
+== Deployment Plans
+
+=== Create a deployment plan
+A `POST` request creates a deployment plan.
+
+include::{snippets}/deployment-plans/create/request-fields.adoc[]
+
+==== Request
+
+===== Parameters
+
+include::{snippets}/deployment-plans/create/path-parameters.adoc[]
+
+===== Examples
+
+include::{snippets}/deployment-plans/create/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/deployment-plans/create/http-response.adoc[]
+
+=== Get a deployment plan
+A `GET` request get a deployment plan for a given package.
+
+==== Request
+
+===== Parameters
+
+include::{snippets}/deployment-plans/get/path-parameters.adoc[]
+
+===== Examples
+
+include::{snippets}/deployment-plans/get/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/deployment-plans/get/http-response.adoc[]
+include::{snippets}/deployment-plans/get/response-fields.adoc[]
+
+=== Get a deployment plan by Filter name
+A `GET` request get all deployment plans that use a given filter.
+
+===== Parameters
+
+include::{snippets}/deployment-plans/get-by-filter-name/path-parameters.adoc[]
+
+===== Examples
+
+include::{snippets}/deployment-plans/get-by-filter-name/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/deployment-plans/get-by-filter-name/http-response.adoc[]
+include::{snippets}/deployment-plans/get-by-filter-name/response-fields.adoc[]

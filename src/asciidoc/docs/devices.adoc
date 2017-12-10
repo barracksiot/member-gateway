@@ -1,0 +1,29 @@
+== Devices
+
+=== List devices
+A `Get` request list the devices.
+
+include::{snippets}/devices/list/request-parameters.adoc[]
+
+==== Request
+
+include::{snippets}/devices/list/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/devices/list/http-response.adoc[]
+
+
+=== Get device
+A `GET` request get a device.
+
+include::{snippets}/devices/get/path-parameters.adoc[]
+
+==== Request
+
+include::{snippets}/devices/get/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/devices/get/http-response.adoc[]
+include::{snippets}/devices/get/response-fields.adoc[]

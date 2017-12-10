@@ -1,0 +1,91 @@
+{
+  "_embedded" : {
+    "events" : [ {
+      "request" : {
+        "customClientData" : {
+          "28ee7ff9-c8ad-473d-8a9d-0233008105d9" : "31ac8365-0ad5-459a-ad8d-86856e8c1794",
+          "80f7acea-f9c7-43a4-be88-122bea04614c" : "8932ea04-a6b0-4da9-8bcd-f03252075729"
+        },
+        "packages" : [ {
+          "reference" : "71d56f26-0106-4763-894f-60e3e9a592e7",
+          "version" : "13c38c67-17b2-4b57-83a1-88ac849a660b"
+        }, {
+          "reference" : "da57ab88-b378-4f15-b54d-8ae1af09080d",
+          "version" : "a4954952-5dfa-43f5-9e1d-de8efdc92e75"
+        } ]
+      },
+      "response" : {
+        "available" : [ {
+          "reference" : "0038e4eb-20e2-4d6f-b1b2-38f02c53d261",
+          "version" : "172e7a63-1ed1-4c75-bcf5-41bbf8a51676"
+        } ],
+        "unavailable" : [ {
+          "reference" : "03834446-2d0c-49d5-8c61-19f9fac39ec9",
+          "version" : "14a9638d-2376-42e1-893c-7ddf73ec039d"
+        } ],
+        "changed" : [ {
+          "reference" : "f18de6db-17e8-492a-85ed-4162f068d500",
+          "version" : "9d2ca75f-2e86-43f7-bb0e-b7ba0624c151"
+        } ],
+        "unchanged" : [ {
+          "reference" : "a0427678-89c9-4bab-8153-7156e743e680",
+          "version" : "50a5839b-50a5-4cb8-ae38-e8d9f9a5dfc3"
+        } ]
+      },
+      "receptionDate" : "2017-04-06T19:39:57.833Z"
+    }, {
+      "request" : {
+        "customClientData" : {
+          "727b4258-94c4-4d0e-9e06-ef8269c2ad4a" : "444776f6-d1c4-4b3d-a208-178aea23e8ad",
+          "3d723088-813d-4779-b2a2-b4fc21967dec" : "5e188969-a4ec-4fbf-8b67-2dc6b5083a17"
+        },
+        "packages" : [ {
+          "reference" : "160ff7b0-53aa-4e95-b689-e4ef36eb0691",
+          "version" : "e37fc2f7-00ec-4514-b86e-585a4d08cc92"
+        }, {
+          "reference" : "2dc122fb-806b-43bc-bd4a-e1e81a16fdd3",
+          "version" : "1215b5fd-c2ae-4a0d-a40f-caf76bbbb128"
+        } ]
+      },
+      "response" : {
+        "available" : [ {
+          "reference" : "338c0075-10ed-4d76-a17d-9c8a06291db3",
+          "version" : "b3586e17-0b89-45e1-b62f-ba9688cd3f91"
+        } ],
+        "unavailable" : [ {
+          "reference" : "db09ee94-c537-42de-b6e1-14ab0910c1c9",
+          "version" : "652eedbf-6abe-42cf-8cb7-64d4874694be"
+        } ],
+        "changed" : [ {
+          "reference" : "4e4dc8e8-e2c1-4064-862c-30fbd10bce22",
+          "version" : "36f0d964-bbad-4d7c-87eb-0cd062993fc5"
+        } ],
+        "unchanged" : [ {
+          "reference" : "fd170310-8386-4f98-97fe-613f66746833",
+          "version" : "748c97cf-1a08-49df-b706-4979340e8978"
+        } ]
+      },
+      "receptionDate" : "2017-04-06T19:39:57.833Z"
+    } ]
+  },
+  "_links" : {
+    "first" : {
+      "href" : "https://not.barracks.io?page=0&size=20"
+    },
+    "self" : {
+      "href" : "https://not.barracks.io"
+    },
+    "next" : {
+      "href" : "https://not.barracks.io?page=1&size=20"
+    },
+    "last" : {
+      "href" : "https://not.barracks.io?page=2&size=20"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 42,
+    "totalPages" : 3,
+    "number" : 0
+  }
+}

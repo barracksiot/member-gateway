@@ -1,0 +1,41 @@
+== Packages
+
+=== Create a aPackage
+A `POST` request creates a package.
+
+include::{snippets}/packages/create/request-fields.adoc[]
+
+==== Request
+
+include::{snippets}/packages/create/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/packages/create/http-response.adoc[]
+
+
+=== List packages
+A `GET` request list packages.
+
+==== Request
+
+include::{snippets}/packages/list/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/packages/list/http-response.adoc[]
+include::{snippets}/packages/list/response-fields.adoc[]
+
+=== Get aPackage
+A `GET` request get a package.
+
+include::{snippets}/packages/get/path-parameters.adoc[]
+
+==== Request
+
+include::{snippets}/packages/get/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/packages/get/http-response.adoc[]
+include::{snippets}/packages/get/response-fields.adoc[]

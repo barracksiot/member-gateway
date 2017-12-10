@@ -1,0 +1,19 @@
+{
+  "_embedded": {
+    "packages": []
+  },
+  "_links": {
+    "self": {
+      "href": "http://172.20.0.4:8080/packages"
+    },
+    "profile": {
+      "href": "http://172.20.0.4:8080/profile/packages"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 2,
+    "totalPages": 1,
+    "number": 0
+  }
+}

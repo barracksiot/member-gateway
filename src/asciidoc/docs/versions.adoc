@@ -1,0 +1,59 @@
+== Versions
+
+=== Create a version
+
+A `POST` request creates a version.
+
+==== Request
+
+===== Parameters
+
+include::{snippets}/versions/create/path-parameters.adoc[]
+
+===== Parts
+
+include::{snippets}/versions/create/request-parts.adoc[]
+
+===== Examples
+
+include::{snippets}/versions/create/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/versions/create/http-response.adoc[]
+
+include::{snippets}/versions/create/response-fields.adoc[]
+
+
+=== Get a version details
+
+A `GET` request return the details of a version.
+
+==== Request
+
+include::{snippets}/versions/get/path-parameters.adoc[]
+
+===== Examples
+
+include::{snippets}/versions/get/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/versions/get/http-response.adoc[]
+
+include::{snippets}/versions/get/response-fields.adoc[]
+
+
+=== Get versions
+
+A `GET` request return the list of versions.
+
+===== Examples
+
+include::{snippets}/versions/list/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/versions/list/http-response.adoc[]
+
+include::{snippets}/versions/list/response-fields.adoc[]

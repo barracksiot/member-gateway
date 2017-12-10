@@ -1,0 +1,30 @@
+== Stats
+
+=== Get the last devices seen
+A `GET` request get the devices last seen between two dates.
+
+include::{snippets}/stats/last-seen/request-parameters.adoc[]
+
+==== Request
+
+include::{snippets}/stats/last-seen/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/stats/last-seen/http-response.adoc[]
+include::{snippets}/stats/last-seen/response-fields.adoc[]
+
+
+=== Get the devices seen
+A `GET` request get the devices seen between two dates.
+
+include::{snippets}/stats/seen/request-parameters.adoc[]
+
+==== Request
+
+include::{snippets}/stats/seen/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/stats/seen/http-response.adoc[]
+include::{snippets}/stats/seen/response-fields.adoc[]

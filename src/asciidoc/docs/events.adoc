@@ -1,0 +1,15 @@
+== Device Events
+
+=== List events of a device
+A `Get` request list the events for the specified device.
+
+include::{snippets}/events/list/path-parameters.adoc[]
+
+==== Request
+
+include::{snippets}/events/list/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/events/list/http-response.adoc[]
+

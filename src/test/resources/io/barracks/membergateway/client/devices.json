@@ -1,0 +1,84 @@
+{
+  "_embedded": {
+    "devices": [
+      {
+        "userId" : "92c6a624-1c50-42da-a8e0-ca97de0568ce",
+        "unitId" : "837013ae-ef90-48ce-8813-82a361204a66",
+        "lastEvent" : {
+          "request" : {
+            "customClientData" : {
+              "8452c182-f40a-4dc8-acf4-3f10512f39ea" : "660c97b9-ef6a-46fb-8a27-c81f5fa212f3",
+              "6cfa6ed5-b23f-497c-aa9e-b9dce3c4fa42" : "bb2675ea-89bd-4a0f-b4d8-217ffe2815c3"
+            },
+            "packages" : [ {
+              "reference" : "07a982ce-f857-4005-88ab-24eae151379c",
+              "version" : "cf39e929-87a9-4fae-b0ec-09223a9c80dd"
+            }, {
+              "reference" : "aa8e2d81-8938-4fa3-9d8c-8082e1b48875",
+              "version" : "1194da10-95dc-46f4-b383-2e38baccc589"
+            } ]
+          },
+          "response" : {
+            "available" : [ {
+              "reference" : "41739a85-c38d-483a-9c33-f391497d5cbb",
+              "version" : "64155ff9-4171-43a7-b723-830d661e973c"
+            } ],
+            "unavailable" : [ {
+              "reference" : "a856045f-bcb4-42bb-8efa-2021a710e259",
+              "version" : "347bb6b9-706d-4613-8c31-a0ca9f16db0e"
+            } ],
+            "changed" : [ {
+              "reference" : "8cc1a0c5-c40a-41bb-8d10-76dc95caf752",
+              "version" : "9b985ce3-4073-4d92-bb72-e7a4934a74cd"
+            } ],
+            "unchanged" : [ {
+              "reference" : "674ae377-74d9-4b66-ba4c-81489a237153",
+              "version" : "393b95b4-e930-40f6-a3e5-d5f97b0db990"
+            } ]
+          },
+          "receptionDate" : "2017-04-06T19:39:58.081Z"
+        },
+        "firstSeen" : "2017-04-06T19:39:58.081Z"
+      },
+      {
+        "userId" : "otherUser",
+        "unitId" : "otherUnit",
+        "lastEvent" : {
+          "request" : {
+            "customClientData" : {
+              "8452c182-f40a-4dc8-acf4-3f10512f39ea" : "660c97b9-ef6a-46fb-8a27-c81f5fa212f3",
+              "6cfa6ed5-b23f-497c-aa9e-b9dce3c4fa42" : "bb2675ea-89bd-4a0f-b4d8-217ffe2815c3"
+            },
+            "packages" : [ {
+              "reference" : "07a982ce-f857-4005-88ab-24eae151379c",
+              "version" : "cf39e929-87a9-4fae-b0ec-09223a9c80dd"
+            }, {
+              "reference" : "aa8e2d81-8938-4fa3-9d8c-8082e1b48875",
+              "version" : "1194da10-95dc-46f4-b383-2e38baccc589"
+            } ]
+          },
+          "response" : {
+            "available" : [ {
+              "reference" : "41739a85-c38d-483a-9c33-f391497d5cbb",
+              "version" : "64155ff9-4171-43a7-b723-830d661e973c"
+            } ],
+            "unavailable" : [ {
+              "reference" : "a856045f-bcb4-42bb-8efa-2021a710e259",
+              "version" : "347bb6b9-706d-4613-8c31-a0ca9f16db0e"
+            } ],
+            "changed" : [ {
+              "reference" : "8cc1a0c5-c40a-41bb-8d10-76dc95caf752",
+              "version" : "9b985ce3-4073-4d92-bb72-e7a4934a74cd"
+            } ],
+            "unchanged" : [ {
+              "reference" : "674ae377-74d9-4b66-ba4c-81489a237153",
+              "version" : "393b95b4-e930-40f6-a3e5-d5f97b0db990"
+            } ]
+          },
+          "receptionDate" : "2017-04-06T19:39:58.081Z"
+        },
+        "firstSeen" : "2017-04-06T19:39:58.081Z"
+      }
+    ]
+  }
+}

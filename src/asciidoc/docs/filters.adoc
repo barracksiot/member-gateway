@@ -1,0 +1,70 @@
+== Filters
+
+=== Create a filter
+A `POST` request creates a filter.
+
+include::{snippets}/filters/create/request-fields.adoc[]
+
+==== Request
+
+include::{snippets}/filters/create/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/filters/create/http-response.adoc[]
+
+
+=== Update a filter
+A `POST` request updates a filter.
+
+include::{snippets}/filters/update/request-fields.adoc[]
+
+==== Request
+
+include::{snippets}/filters/update/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/filters/update//http-response.adoc[]
+
+
+=== List the filters
+A `GET` request lists all the filters.
+
+==== Request
+
+include::{snippets}/filters/list/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/filters/list/http-response.adoc[]
+include::{snippets}/filters/list/response-fields.adoc[]
+
+
+=== Get a filter by name
+A `GET` request with the name of the filter returns the information of the filter.
+
+include::{snippets}/filters/get/path-parameters.adoc[]
+
+==== Request
+
+include::{snippets}/filters/get/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/filters/get/http-response.adoc[]
+include::{snippets}/filters/get/response-fields.adoc[]
+
+
+=== Delete a filter
+A `DELETE` request deletes a filter
+
+include::{snippets}/filters/delete/path-parameters.adoc[]
+
+==== Request
+
+include::{snippets}/filters/delete/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/filters/delete/http-response.adoc[]

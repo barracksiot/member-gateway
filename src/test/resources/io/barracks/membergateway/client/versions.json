@@ -1,0 +1,53 @@
+{
+  "_embedded": {
+    "versions": [
+      {
+        "id": "ID of the first version",
+        "name": "Name of the first version",
+        "description": "Description of the first version",
+        "filename": "First filename",
+        "length": "3246556",
+        "md5": "Md312533",
+        "metadata": {
+          "truc": "machin"
+        }
+      },
+      {
+        "id": "ID of the second version",
+        "name": "Name of the second version",
+        "description": "Description of the second version",
+        "filename": "Second filename",
+        "length": "2354",
+        "md5": "ouiiiiiiiiiii ",
+        "metadata": {
+          "truc": "something"
+        }
+      },
+      {
+        "id": "ID of the third version",
+        "name": "Name of the third version",
+        "description": "Description of the third version",
+        "filename": "Third filename",
+        "length": "54367",
+        "md5": "AAAAAAAAAAAAAH ",
+        "metadata": {
+          "truc": "bidule"
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://172.20.0.4:8080/versions"
+    },
+    "profile": {
+      "href": "http://172.20.0.4:8080/profile/versions"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 2,
+    "totalPages": 1,
+    "number": 0
+  }
+}
